@@ -1,11 +1,11 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	effects
 Summary:	Effect Displays for Linear and Generalized Linear Models
-Summary(pl):	Efekty wy¶wietlania dla liniowych i ogólnych liniowych modelów
+Summary(pl):	Wy¶wietlanie efektów dla liniowych i uogólnionych modeli liniowych
 Name:		R-cran-%{modulename}
 Version:	1.0r5
 Release:	1
-License:	GPL version 2 or newer
+License:	GPL v2+
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
 # Source0-md5:	79390a9807537b24e92956a0614c4ac7
@@ -23,8 +23,8 @@ Graphical and tabular effect displays, e.g., of interactions, for
 linear and generalised linear models.
 
 %description
-Graficzne i tablicowe efekty wy¶wietlania, to jest interakcji, do
-liniowych i ogólnych modelów liniowych.
+Graficzne i tablicowe wy¶wietlanie efektów, np. interakcji, dla
+liniowych i uogólnionych modeli liniowych.
 
 %prep
 %setup -q -c
