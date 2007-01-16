@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Graphical and tabular effect displays, e.g., of interactions, for
 linear and generalised linear models.
 
-%description
+%description -l pl
 Graficzne i tablicowe wy¶wietlanie efektów, np. interakcji, dla
 liniowych i uogólnionych modeli liniowych.
 
