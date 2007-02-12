@@ -1,7 +1,7 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	effects
 Summary:	Effect Displays for Linear and Generalized Linear Models
-Summary(pl.UTF-8):   Wyświetlanie efektów dla liniowych i uogólnionych modeli liniowych
+Summary(pl.UTF-8):	Wyświetlanie efektów dla liniowych i uogólnionych modeli liniowych
 Name:		R-cran-%{modulename}
 Version:	1.0r5
 Release:	2
