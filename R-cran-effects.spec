@@ -10,12 +10,12 @@ Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
 # Source0-md5:	79390a9807537b24e92956a0614c4ac7
 URL:		http://socserv.socsci.mcmaster.ca/jfox/
-BuildRequires:	R-base >= 2.4.0
-Requires(post,postun):	R-base >= 2.4.0
+BuildRequires:	R >= 2.8.1
+Requires(post,postun):	R >= 2.8.1
 Requires(post,postun):	perl-base
 Requires(post,postun):	textutils
+Requires:	R
 Requires:	R-cran-grid
-Requires:	R-cran-lattice
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
