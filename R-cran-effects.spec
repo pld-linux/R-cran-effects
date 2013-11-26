@@ -3,12 +3,12 @@
 Summary:	Effect Displays for Linear and Generalized Linear Models
 Summary(pl.UTF-8):	Wyświetlanie efektów dla liniowych i uogólnionych modeli liniowych
 Name:		R-cran-%{modulename}
-Version:	1.0r5
-Release:	2
+Version:	2.3r0
+Release:	1
 License:	GPL v2+
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
-# Source0-md5:	79390a9807537b24e92956a0614c4ac7
+# Source0-md5:	5c13d1c7100ff658315bd7bac26dc704
 URL:		http://socserv.socsci.mcmaster.ca/jfox/
 BuildRequires:	R >= 2.8.1
 Requires(post,postun):	R >= 2.8.1
